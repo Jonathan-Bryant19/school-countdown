@@ -10,7 +10,7 @@ const App = () => {
   });
 
   useEffect(() => {
-    const countdownDate = new Date('2023-05-26T13:30:00').getTime();
+    const countdownDate = new Date('2023-05-26T13:40:00').getTime();
     const intervalId = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -38,7 +38,7 @@ const App = () => {
           Hunter's Summer Countdown
         </div>
         <div className="card-body">
-          <h5 className="card-title">Time left until 1:30 PM on 5/26/2023</h5>
+          <h5 className="card-title">Time left until 1:40 PM on 5/26/2023</h5>
           <div className="card-text">
             <p>Hours: {timeLeft.hours}</p>
             <p>Minutes: {timeLeft.minutes}</p>
